@@ -24,6 +24,7 @@ const registrationSlice = createSlice({
     addFormdata(state, action: PayloadAction<FormData>) {
       state.formData.push({ ...action.payload });
     },
+    updateFormData(state, action: PayloadAction<FormData>) {},
   },
 });
 

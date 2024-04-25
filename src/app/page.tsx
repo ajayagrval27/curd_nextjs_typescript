@@ -1,4 +1,5 @@
 "use client";
+
 import { NextUIProvider } from "@nextui-org/react";
 import RegistrationPage from "./registration/page";
 import { Provider } from "react-redux";
